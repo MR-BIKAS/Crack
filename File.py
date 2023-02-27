@@ -180,10 +180,10 @@ def ckx():
 def Spy():
 	clear()
 	#ckx()
-	print(m" [1] FILE Cloner (BEST) ")
-	print(m" [2] BD Random Cloner ")
-	print(m" [3] Gmail Cloning")
-	print(m" [0] Exit")
+	print(f" [1] FILE Cloner (BEST) ")
+	print(f" [2] BD Random Cloner ")
+	print(f" [3] Gmail Cloning")
+	print(f" [0] Exit")
 	me=input(f' Choice : ')
 	if me in ["2", "02"]:
 		bd()
